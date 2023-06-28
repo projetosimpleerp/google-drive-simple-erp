@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9FHGtM8TN/ngYEgfnRYjnmi2/iNy8epfg9NtVYs6LjY=",
+  "Source": "SimpleERP.GoogleDriveIntegration",
+  "BasePath": "_content/SimpleERP.GoogleDriveIntegration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

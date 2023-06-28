@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleERP.GoogleDriveIntegration.props" />
+</Project>
