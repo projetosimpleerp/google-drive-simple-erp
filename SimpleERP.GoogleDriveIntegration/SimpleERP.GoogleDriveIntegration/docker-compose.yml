@@ -1,0 +1,15 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:80
+      - 9002:9002
+    volumes:
+      - ./appsettings.json:/app/appsettings.json
+      - ./logs:/app/logs
+      - F:\Projects\SimpleERP\google-drive-simple-erp\Backup:/app/backup
+      - F:\Projects\SimpleERP\google-drive-simple-erp\simpleerp-390702-ec66d24e8cfb.json:/app/credenciais.json
+      - E:\PostGree\bin\pg_dump:/app/pg_dump

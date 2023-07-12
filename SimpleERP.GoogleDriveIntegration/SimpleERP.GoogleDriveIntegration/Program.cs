@@ -1,9 +1,15 @@
 using Hangfire;
 using Hangfire.JobsLogger;
+using Serilog;
+using SimpleERP.GoogleDriveIntegration.Filters;
 using SimpleERP.GoogleDriveIntegration.Jobs;
 using SimpleERP.GoogleDriveIntegration.Services.Drive;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .CreateLogger();
 
 // Add services to the container.
 
@@ -35,7 +41,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseHangfireDashboard();
+app.UseHangfireDashboard("/hangfire", new DashboardOptions
+{
+    Authorization = new[] { new AuthorizationFilter() }
+});
 
 Jobs.StartJobs(builder.Configuration);
 

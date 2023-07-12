@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G641+S9xq/Dblf99oQxjwICy1HE+D/Bf/t4S0vvlGesc+Gy0Qnb2nutDF2YIGzSb3hAdmlUxajCBp/9hHihMUQ==",
+  "dgSpecHash": "0qiqlNb88qUGyZeYnX+1TBJLn1Htghv5w8GjfdHh2kR8/cAK+TdjKYaZ26wX3RbXx06it+Ok1L0g97fZp07DcQ==",
   "success": true,
   "projectFilePath": "F:\\Projects\\SimpleERP\\google-drive-simple-erp\\SimpleERP.GoogleDriveIntegration\\SimpleERP.GoogleDriveIntegration\\SimpleERP.GoogleDriveIntegration.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\lucka\\.nuget\\packages\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\runtime.native.system.security.cryptography\\4.0.0\\runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
+    "C:\\Users\\lucka\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

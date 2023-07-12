@@ -59,3 +59,4 @@ F:\Projects\SimpleERP\google-drive-simple-erp\SimpleERP.GoogleDriveIntegration\S
 F:\Projects\SimpleERP\google-drive-simple-erp\SimpleERP.GoogleDriveIntegration\SimpleERP.GoogleDriveIntegration\bin\Debug\net6.0\Hangfire.MemoryStorage.dll
 F:\Projects\SimpleERP\google-drive-simple-erp\SimpleERP.GoogleDriveIntegration\SimpleERP.GoogleDriveIntegration\bin\Debug\net6.0\Hangfire.MemoryStorage.Core.dll
 F:\Projects\SimpleERP\google-drive-simple-erp\SimpleERP.GoogleDriveIntegration\SimpleERP.GoogleDriveIntegration\bin\Debug\net6.0\Npgsql.dll
+F:\Projects\SimpleERP\google-drive-simple-erp\SimpleERP.GoogleDriveIntegration\SimpleERP.GoogleDriveIntegration\bin\Debug\net6.0\Serilog.dll
