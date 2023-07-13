@@ -30,7 +30,8 @@ namespace SimpleERP.GoogleDriveIntegration.Jobs
                 var processStartInfo = new ProcessStartInfo
                 {
                     FileName = VariaveisDeAmbiente.PGDUMP,
-                    Arguments = $"-U {conn.Username} -h {conn.Host} -p {conn.Port} -F c -f {backupFilePath} --no-password ",
+                    //Arguments = $"-U {conn.Username} -h {conn.Host} -p {conn.Port} -F c -f {backupFilePath} --no-password ",
+                    Arguments = $"--host {conn.Host} --port {conn.Port} --username {conn.Username} --dbname {conn.Database} --format tar --file {backupFilePath} --no-password ",
                     UseShellExecute = false
                 };
                 processStartInfo.EnvironmentVariables["PGPASSWORD"] = conn.Password;
